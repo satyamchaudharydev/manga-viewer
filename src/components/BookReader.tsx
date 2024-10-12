@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from "react";
-import { Book, Chapter, Page } from "../type/type";
+import { Book, Chapter } from "../type/type";
 import { preloadImages } from "../utils/imageUtils";
 import { bookAPI} from "../api";
 import PageViewer from "./PageViewer";
